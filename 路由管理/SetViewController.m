@@ -9,8 +9,6 @@
 #import "SetViewController.h"
 #import "SecurityProViewController.h"
 #import "WebViewController.h"
-
-#import "CLLockVC.h"
 #import "Config.h"
 
 
@@ -478,42 +476,7 @@
 
 -(void)btnOpenLockPic:(id)sender{
     
-    BOOL on = [[[NSUserDefaults standardUserDefaults] objectForKey:@"SwLockPicMode"] boolValue];
-    
-    
-    BOOL hasPwd = [CLLockVC hasPwd];
-    
-    
-    if(!hasPwd&&!on){
-        
-        
-        [CLLockVC showSettingLockVCInVC:self successBlock:^(CLLockVC *lockVC, NSString *pwd) {
-            
-            NSLog(@"密码设置成功");
-            [lockVC dismiss:1.0f];
-            
-        }];
-        
-        
-        
-    }
-    
-    UISwitch* btn = (UISwitch*)sender;
-    [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:btn.on] forKey:@"SwLockPicMode"];
-    [[NSUserDefaults standardUserDefaults] synchronize];
-    
-    BOOL SwLockProMode = [[[NSUserDefaults standardUserDefaults] objectForKey:@"SwLockProMode"] boolValue];
-    if (btn.on==true) {
-        [swLock setOn:true];
-    }else{
-        if (SwLockProMode) {
-            [swLock setOn:NO];
-        }
-        
-    }
 }
-
-
 
 -(void)btnOpenLockPro:(id)sender{
     UISwitch* btn = (UISwitch*)sender;

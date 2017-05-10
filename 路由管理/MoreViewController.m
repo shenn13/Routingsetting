@@ -17,14 +17,12 @@
 #import "KxMenu.h"
 #import "QRCodeReaderViewController.h"
 
-#import "UMSocial.h"
-
 #import "MBProgressHUD.h"
 #import "Utils.h"
 
 #import "Config.h"
 
-@interface MoreViewController ()<QRCodeReaderDelegate,UMSocialUIDelegate>{
+@interface MoreViewController ()<QRCodeReaderDelegate>{
     UIView *menuList;
     MBProgressHUD *HUD;
 
@@ -67,7 +65,7 @@
 
 
 - (void)viewDidLoad {
-    [UMSocialData setAppKey:@"5617b5f1e0f55af05300423f"];
+  
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor colorWithRed:0.792f green:0.792f blue:0.792f alpha:1.00f];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
@@ -332,16 +330,7 @@
 }
 
 -(void)pushMenuItemShare{
-    NSString *shareText = @"友盟社会化组件可以让移动应用快速具备社会化分享、登录、评论、喜欢等功能，并提供实时、全面的社会化数据统计分析服务。 http://www.umeng.com/social";             //分享内嵌文字
-//    UIImage *shareImage = [UIImage imageNamed:@"UMS_social_demo"];          //分享内嵌图片
-    
-    //调用快速分享接口
-    [UMSocialSnsService presentSnsIconSheetView:self
-                                         appKey:@"5617b5f1e0f55af05300423f"
-                                      shareText:shareText
-                                     shareImage:nil
-                                shareToSnsNames:nil
-                                       delegate:self];
+
     
 }
 

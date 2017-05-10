@@ -13,7 +13,6 @@
 #import "MBProgressHUD.h"
 #import "NetworkReach.h"
 #import "downTask.h"
-#import "UMSocial.h"
 
 #import "Utils.h"
 
@@ -37,7 +36,9 @@
 - (void)initRootVc{
     
     self.window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     NetViewController *Vc1=[[NetViewController alloc] init];
+    
     UINavigationController *nav1=[[UINavigationController alloc] initWithRootViewController:Vc1];
     MineViewController *Vc2=[[MineViewController alloc] init];
     UINavigationController *nav2=[[UINavigationController alloc] initWithRootViewController:Vc2];
@@ -70,8 +71,10 @@
 
 
 -(void)testNotification{
+    
     if ([[UIApplication sharedApplication]currentUserNotificationSettings].types!=UIUserNotificationTypeNone) {
         [self addLocalNotification];
+        
     }else{
         [[UIApplication sharedApplication]registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound  categories:nil]];
     }
@@ -85,16 +88,10 @@
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
         NSDate *installDate = [NSDate date];
         [[NSUserDefaults standardUserDefaults] setObject:[Utils stringFromDate:installDate] forKey:@"installDate"];
-        
-        
-        
     }
     else{
         [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"firstLaunch"];
     }
-    
-    
-    
 }
 
 
@@ -105,8 +102,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self.netReach initNetwork];
-    
-    [UMSocialData setAppKey:@"5617b5f1e0f55af05300423f"];
     
     [self firstLoad];
     
@@ -160,9 +155,6 @@
 -(void)removeNotification{
     [[UIApplication sharedApplication] cancelAllLocalNotifications];
 }
-
-
-
 - (void)applicationWillResignActive:(UIApplication *)application {
     
 }

@@ -14,7 +14,6 @@
 #import "MBProgressHUD.h"
 #import "Reachability.h"
 #import "Config.h"
-#import "CLLockVC.h"
 #import "KxMenu.h"
 #import "QRCodeReaderViewController.h"
 #import "AFNetworking.h"
@@ -22,11 +21,9 @@
 
 #import "Utils.h"
 
-#import "UMSocial.h"
-
 #import "LocalAuthentication/LAContext.h"
 
-@interface NetViewController () <MBProgressHUDDelegate,QRCodeReaderDelegate,UMSocialUIDelegate> {
+@interface NetViewController () <MBProgressHUDDelegate,QRCodeReaderDelegate> {
     MBProgressHUD *HUD;
     UIView *menuList;
     UIView *mainView;
@@ -71,59 +68,6 @@
     if ([_isIn isEqualToString:@"ok"]) {
         return;
     }
-    
-    BOOL hasPwd = [CLLockVC hasPwd];
-    
-    if(!hasPwd){
-        
-        [CLLockVC showSettingLockVCInVC:self successBlock:^(CLLockVC *lockVC, NSString *pwd) {
-            
-            NSLog(@"密码设置成功");
-            [lockVC dismiss:1.0f];
-            
-        }];
-    }
-    
-    
-    BOOL lockOn = [[[NSUserDefaults standardUserDefaults] objectForKey:@"SwLockPicMode"] boolValue];
-    
-    if(lockOn){
-        
-        
-        if(hasPwd){
-            
-            [CLLockVC showVerifyLockVCInVC:self forgetPwdBlock:^{
-                NSLog(@"忘记密码");
-            } successBlock:^(CLLockVC *lockVC, NSString *pwd) {
-                NSLog(@"密码正确");
-                LAContext *myContext = [[LAContext alloc] init];
-                NSError *authError = nil;
-                NSString *myLocalizedReasonString = @"请输入指纹";
-                
-                if ([myContext canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&authError]) {
-                    [myContext evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics
-                              localizedReason:myLocalizedReasonString
-                                        reply:^(BOOL success, NSError *error) {
-                                            if (success) {
-                                                return ;
-                                                // User authenticated successfully, take appropriate action
-                                            } else {
-                                                // User did not authenticate successfully, look at error and take appropriate action
-                                            }
-                                        }];
-                } else {
-                    // Could not evaluate policy; look at authError and present an appropriate message to user
-                }
-
-                [lockVC dismiss:1.0f];
-            }];
-        }
-        
-        
-        
-    }
-    
-    
 }
 
 -(void)initNav{
@@ -432,14 +376,7 @@
 
 
 -(void)pushMenuItemShare{
-    NSString *shareText = @"将其分享给好友";
-    [UMSocialSnsService presentSnsIconSheetView:self
-                                         appKey:@"5617b5f1e0f55af05300423f"
-                                      shareText:shareText
-                                     shareImage:nil
-                                shareToSnsNames:nil
-                                       delegate:self];
-    
+   
 }
 
 -(void)OnmenuBtn:(UIButton *)sender{

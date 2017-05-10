@@ -17,14 +17,12 @@
 #import "LoginViewController.h"
 #import "JHCustomMenu.h"
 
-#import "UMSocial.h"
-
 #import "KxMenu.h"
 
 
 
 
-@interface MineViewController ()<UITableViewDataSource,UITableViewDelegate,UMSocialUIDelegate,JHCustomMenuDelegate>
+@interface MineViewController ()<UITableViewDataSource,UITableViewDelegate,JHCustomMenuDelegate>
 {
     NSMutableArray *_dataSourceArray;
     UIButton *btnLoginOut;
@@ -349,13 +347,7 @@
         }
         
         if(indexPath.row==4){
-            NSString *shareText = @"将其分享给好友";
-            [UMSocialSnsService presentSnsIconSheetView:self
-                                                 appKey:@"5617b5f1e0f55af05300423f"
-                                              shareText:shareText
-                                             shareImage:nil
-                                        shareToSnsNames:nil
-                                               delegate:self];
+        
             
         }
         

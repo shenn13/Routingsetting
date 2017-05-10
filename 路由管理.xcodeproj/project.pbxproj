@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3F0C82531BA265F50033E51F /* SJBBaseTreeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C82521BA265F50033E51F /* SJBBaseTreeListViewController.m */; };
 		3F0C82561BA2CB6E0033E51F /* NetTestResViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C82551BA2CB6E0033E51F /* NetTestResViewController.m */; };
-		3F0C825A1BA2CE410033E51F /* RatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C82591BA2CE410033E51F /* RatingView.m */; };
 		3F0C825D1BA2FCE80033E51F /* NetSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C825C1BA2FCE80033E51F /* NetSettingViewController.m */; };
 		3F17ED541BA072B500327B5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17ED531BA072B500327B5C /* main.m */; };
 		3F17ED571BA072B500327B5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17ED561BA072B500327B5C /* AppDelegate.m */; };
@@ -43,16 +42,6 @@
 		3F6912C31BE615D0004EBD5D /* CommonFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6912C21BE615D0004EBD5D /* CommonFunc.m */; };
 		3F7FA2F21BA727AC002AA728 /* RouterInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FA2F11BA727AC002AA728 /* RouterInfoViewController.m */; };
 		3F86233B1BB6DBE500E3699A /* NetworkReach.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F86233A1BB6DBE500E3699A /* NetworkReach.m */; };
-		3FA2B6491BD0A219002D8DA8 /* CLLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2B6321BD0A219002D8DA8 /* CLLockVC.m */; };
-		3FA2B64A1BD0A219002D8DA8 /* CLLockVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2B6331BD0A219002D8DA8 /* CLLockVC.xib */; };
-		3FA2B64B1BD0A219002D8DA8 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2B6371BD0A219002D8DA8 /* CALayer+Anim.m */; };
-		3FA2B64C1BD0A219002D8DA8 /* CoreLockConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2B63A1BD0A219002D8DA8 /* CoreLockConst.m */; };
-		3FA2B64D1BD0A219002D8DA8 /* CLLockNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2B63D1BD0A219002D8DA8 /* CLLockNavVC.m */; };
-		3FA2B64E1BD0A219002D8DA8 /* CLLockInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2B6401BD0A219002D8DA8 /* CLLockInfoView.m */; };
-		3FA2B64F1BD0A219002D8DA8 /* CLLockItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2B6421BD0A219002D8DA8 /* CLLockItemView.m */; };
-		3FA2B6501BD0A219002D8DA8 /* CLLockLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2B6441BD0A219002D8DA8 /* CLLockLabel.m */; };
-		3FA2B6511BD0A219002D8DA8 /* CLLockMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2B6461BD0A219002D8DA8 /* CLLockMainView.m */; };
-		3FA2B6521BD0A219002D8DA8 /* CLLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2B6481BD0A219002D8DA8 /* CLLockView.m */; };
 		3FD0ADEB1BAA7EFB0096947D /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0ADE51BAA7EFB0096947D /* QRCameraSwitchButton.m */; };
 		3FD0ADEC1BAA7EFB0096947D /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0ADE81BAA7EFB0096947D /* QRCodeReaderView.m */; };
 		3FD0ADED1BAA7EFB0096947D /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0ADEA1BAA7EFB0096947D /* QRCodeReaderViewController.m */; };
@@ -70,17 +59,6 @@
 		3FF3B1E41BA12A9700F6AA28 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3B1E31BA12A9700F6AA28 /* LoginViewController.m */; };
 		3FF3B1E71BA1306200F6AA28 /* GuestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3B1E61BA1306200F6AA28 /* GuestViewController.m */; };
 		3FF3B1EA1BA132DB00F6AA28 /* NetTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3B1E91BA132DB00F6AA28 /* NetTestViewController.m */; };
-		3FF472601BC7EE8900373821 /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FF472461BC7EE8900373821 /* UMSocialLocalizable.strings */; };
-		3FF472611BC7EE8900373821 /* libUMSocial_Sdk_4.2.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF472541BC7EE8900373821 /* libUMSocial_Sdk_4.2.5.a */; };
-		3FF472621BC7EE8900373821 /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF472561BC7EE8900373821 /* UMSCommentDetailController.xib */; };
-		3FF472631BC7EE8900373821 /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF472571BC7EE8900373821 /* UMSCommentInputController.xib */; };
-		3FF472641BC7EE8900373821 /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF472581BC7EE8900373821 /* UMSCommentInputControlleriPad.xib */; };
-		3FF472651BC7EE8900373821 /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF472591BC7EE8900373821 /* UMShareEditViewController.xib */; };
-		3FF472661BC7EE8900373821 /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4725A1BC7EE8900373821 /* UMShareEditViewControlleriPad.xib */; };
-		3FF472671BC7EE8900373821 /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4725B1BC7EE8900373821 /* UMSLoginViewController.xib */; };
-		3FF472681BC7EE8900373821 /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4725C1BC7EE8900373821 /* UMSnsAccountViewController.xib */; };
-		3FF472691BC7EE8900373821 /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4725D1BC7EE8900373821 /* UMSShareListController.xib */; };
-		3FF4726A1BC7EE8900373821 /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4725E1BC7EE8900373821 /* UMSocialSDKResourcesNew.bundle */; };
 		3FF71FA01BC8ED9A00CA67C4 /* testResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF71F9F1BC8ED9A00CA67C4 /* testResultModel.m */; };
 		3FFEFC3E1BCA42E9006D499B /* DropMuneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFEFC3D1BCA42E9006D499B /* DropMuneView.m */; };
 		3FFEFC871BCAB896006D499B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFEFC861BCAB896006D499B /* WebViewController.m */; };
@@ -105,8 +83,6 @@
 		3F0C82521BA265F50033E51F /* SJBBaseTreeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBBaseTreeListViewController.m; sourceTree = "<group>"; };
 		3F0C82541BA2CB6E0033E51F /* NetTestResViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetTestResViewController.h; sourceTree = "<group>"; };
 		3F0C82551BA2CB6E0033E51F /* NetTestResViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetTestResViewController.m; sourceTree = "<group>"; };
-		3F0C82581BA2CE410033E51F /* RatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingView.h; sourceTree = "<group>"; };
-		3F0C82591BA2CE410033E51F /* RatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingView.m; sourceTree = "<group>"; };
 		3F0C825B1BA2FCE80033E51F /* NetSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetSettingViewController.h; sourceTree = "<group>"; };
 		3F0C825C1BA2FCE80033E51F /* NetSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetSettingViewController.m; sourceTree = "<group>"; };
 		3F17ED4E1BA072B500327B5C /* 路由管理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "路由管理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,25 +151,6 @@
 		3F7FA2F11BA727AC002AA728 /* RouterInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterInfoViewController.m; sourceTree = "<group>"; };
 		3F8623391BB6DBE500E3699A /* NetworkReach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkReach.h; sourceTree = "<group>"; };
 		3F86233A1BB6DBE500E3699A /* NetworkReach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkReach.m; sourceTree = "<group>"; };
-		3FA2B6311BD0A219002D8DA8 /* CLLockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockVC.h; sourceTree = "<group>"; };
-		3FA2B6321BD0A219002D8DA8 /* CLLockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockVC.m; sourceTree = "<group>"; };
-		3FA2B6331BD0A219002D8DA8 /* CLLockVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLLockVC.xib; sourceTree = "<group>"; };
-		3FA2B6361BD0A219002D8DA8 /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
-		3FA2B6371BD0A219002D8DA8 /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
-		3FA2B6391BD0A219002D8DA8 /* CoreLockConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLockConst.h; sourceTree = "<group>"; };
-		3FA2B63A1BD0A219002D8DA8 /* CoreLockConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLockConst.m; sourceTree = "<group>"; };
-		3FA2B63C1BD0A219002D8DA8 /* CLLockNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockNavVC.h; sourceTree = "<group>"; };
-		3FA2B63D1BD0A219002D8DA8 /* CLLockNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockNavVC.m; sourceTree = "<group>"; };
-		3FA2B63F1BD0A219002D8DA8 /* CLLockInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockInfoView.h; sourceTree = "<group>"; };
-		3FA2B6401BD0A219002D8DA8 /* CLLockInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockInfoView.m; sourceTree = "<group>"; };
-		3FA2B6411BD0A219002D8DA8 /* CLLockItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockItemView.h; sourceTree = "<group>"; };
-		3FA2B6421BD0A219002D8DA8 /* CLLockItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockItemView.m; sourceTree = "<group>"; };
-		3FA2B6431BD0A219002D8DA8 /* CLLockLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockLabel.h; sourceTree = "<group>"; };
-		3FA2B6441BD0A219002D8DA8 /* CLLockLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockLabel.m; sourceTree = "<group>"; };
-		3FA2B6451BD0A219002D8DA8 /* CLLockMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockMainView.h; sourceTree = "<group>"; };
-		3FA2B6461BD0A219002D8DA8 /* CLLockMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockMainView.m; sourceTree = "<group>"; };
-		3FA2B6471BD0A219002D8DA8 /* CLLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockView.h; sourceTree = "<group>"; };
-		3FA2B6481BD0A219002D8DA8 /* CLLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockView.m; sourceTree = "<group>"; };
 		3FA753611BBBB0BC007D2453 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		3FA753631BBBB0D3007D2453 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		3FD0ADE41BAA7EFB0096947D /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCameraSwitchButton.h; sourceTree = "<group>"; };
@@ -232,29 +189,6 @@
 		3FF3B1E61BA1306200F6AA28 /* GuestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestViewController.m; sourceTree = "<group>"; };
 		3FF3B1E81BA132DB00F6AA28 /* NetTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetTestViewController.h; sourceTree = "<group>"; };
 		3FF3B1E91BA132DB00F6AA28 /* NetTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetTestViewController.m; sourceTree = "<group>"; };
-		3FF472471BC7EE8900373821 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
-		3FF472491BC7EE8900373821 /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
-		3FF4724A1BC7EE8900373821 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
-		3FF4724B1BC7EE8900373821 /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
-		3FF4724C1BC7EE8900373821 /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
-		3FF4724D1BC7EE8900373821 /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
-		3FF4724E1BC7EE8900373821 /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
-		3FF4724F1BC7EE8900373821 /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
-		3FF472501BC7EE8900373821 /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
-		3FF472511BC7EE8900373821 /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
-		3FF472521BC7EE8900373821 /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
-		3FF472531BC7EE8900373821 /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
-		3FF472541BC7EE8900373821 /* libUMSocial_Sdk_4.2.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.2.5.a; sourceTree = "<group>"; };
-		3FF472561BC7EE8900373821 /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
-		3FF472571BC7EE8900373821 /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
-		3FF472581BC7EE8900373821 /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
-		3FF472591BC7EE8900373821 /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
-		3FF4725A1BC7EE8900373821 /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
-		3FF4725B1BC7EE8900373821 /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
-		3FF4725C1BC7EE8900373821 /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
-		3FF4725D1BC7EE8900373821 /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
-		3FF4725E1BC7EE8900373821 /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
-		3FF4725F1BC7EE8900373821 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
 		3FF71F9E1BC8ED9A00CA67C4 /* testResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testResultModel.h; sourceTree = "<group>"; };
 		3FF71F9F1BC8ED9A00CA67C4 /* testResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testResultModel.m; sourceTree = "<group>"; };
 		3FFEFC3C1BCA42DE006D499B /* DropMuneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropMuneView.h; sourceTree = "<group>"; };
@@ -277,7 +211,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C72F9D1EC2D5A400F208D3 /* libPods-路由管理.a in Frameworks */,
-				3FF472611BC7EE8900373821 /* libUMSocial_Sdk_4.2.5.a in Frameworks */,
 				3F5E420C1BC608E9009A00AA /* libstdc++.tbd in Frameworks */,
 				3F5E420A1BC608D9009A00AA /* libz.tbd in Frameworks */,
 				3F5E42081BC608BD009A00AA /* libicucore.tbd in Frameworks */,
@@ -298,15 +231,12 @@
 			isa = PBXGroup;
 			children = (
 				3F240B871C49026A00828B90 /* JHCustomMenu */,
-				3FA2B6301BD0A219002D8DA8 /* CoreLock */,
-				3FF472451BC7EE8900373821 /* UMSocial_Sdk_4.2.5 */,
 				3FD583171BC18FA60061E81F /* KxMenu */,
 				3F3BF31D1BAB9FB3008678D9 /* MBProgressHUD */,
 				3FD0ADEE1BAB18590096947D /* Reachability */,
 				3FD0ADE31BAA7EFB0096947D /* QRCodeReaderViewController */,
 				3FD52F581BA7FD9F0019544F /* FrameWork */,
 				3FD838101BA5D00100BEB44C /* 仪表盘 */,
-				3F0C82571BA2CD7F0033E51F /* 评价星星 */,
 				3F0C82501BA265B90033E51F /* SJBTreeListTableView */,
 			);
 			name = "库";
@@ -319,15 +249,6 @@
 				3F0C82521BA265F50033E51F /* SJBBaseTreeListViewController.m */,
 			);
 			name = SJBTreeListTableView;
-			sourceTree = "<group>";
-		};
-		3F0C82571BA2CD7F0033E51F /* 评价星星 */ = {
-			isa = PBXGroup;
-			children = (
-				3F0C82581BA2CE410033E51F /* RatingView.h */,
-				3F0C82591BA2CE410033E51F /* RatingView.m */,
-			);
-			name = "评价星星";
 			sourceTree = "<group>";
 		};
 		3F17ED451BA072B500327B5C = {
@@ -491,7 +412,6 @@
 			isa = PBXGroup;
 			children = (
 				3F5F8A061BB81A1100505D72 /* Utils */,
-				3F86233C1BB6E44600E3699A /* Logger */,
 				3F17ED8E1BA077DD00327B5C /* Public.h */,
 				3F8623391BB6DBE500E3699A /* NetworkReach.h */,
 				3F86233A1BB6DBE500E3699A /* NetworkReach.m */,
@@ -536,79 +456,6 @@
 				3F6912C21BE615D0004EBD5D /* CommonFunc.m */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		3F86233C1BB6E44600E3699A /* Logger */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Logger;
-			sourceTree = "<group>";
-		};
-		3FA2B6301BD0A219002D8DA8 /* CoreLock */ = {
-			isa = PBXGroup;
-			children = (
-				3FA2B6311BD0A219002D8DA8 /* CLLockVC.h */,
-				3FA2B6321BD0A219002D8DA8 /* CLLockVC.m */,
-				3FA2B6331BD0A219002D8DA8 /* CLLockVC.xib */,
-				3FA2B6341BD0A219002D8DA8 /* Lib */,
-			);
-			path = CoreLock;
-			sourceTree = "<group>";
-		};
-		3FA2B6341BD0A219002D8DA8 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				3FA2B6351BD0A219002D8DA8 /* Category */,
-				3FA2B6381BD0A219002D8DA8 /* Const */,
-				3FA2B63B1BD0A219002D8DA8 /* Controller */,
-				3FA2B63E1BD0A219002D8DA8 /* View */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		3FA2B6351BD0A219002D8DA8 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				3FA2B6361BD0A219002D8DA8 /* CALayer+Anim.h */,
-				3FA2B6371BD0A219002D8DA8 /* CALayer+Anim.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		3FA2B6381BD0A219002D8DA8 /* Const */ = {
-			isa = PBXGroup;
-			children = (
-				3FA2B6391BD0A219002D8DA8 /* CoreLockConst.h */,
-				3FA2B63A1BD0A219002D8DA8 /* CoreLockConst.m */,
-			);
-			path = Const;
-			sourceTree = "<group>";
-		};
-		3FA2B63B1BD0A219002D8DA8 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3FA2B63C1BD0A219002D8DA8 /* CLLockNavVC.h */,
-				3FA2B63D1BD0A219002D8DA8 /* CLLockNavVC.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3FA2B63E1BD0A219002D8DA8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3FA2B63F1BD0A219002D8DA8 /* CLLockInfoView.h */,
-				3FA2B6401BD0A219002D8DA8 /* CLLockInfoView.m */,
-				3FA2B6411BD0A219002D8DA8 /* CLLockItemView.h */,
-				3FA2B6421BD0A219002D8DA8 /* CLLockItemView.m */,
-				3FA2B6431BD0A219002D8DA8 /* CLLockLabel.h */,
-				3FA2B6441BD0A219002D8DA8 /* CLLockLabel.m */,
-				3FA2B6451BD0A219002D8DA8 /* CLLockMainView.h */,
-				3FA2B6461BD0A219002D8DA8 /* CLLockMainView.m */,
-				3FA2B6471BD0A219002D8DA8 /* CLLockView.h */,
-				3FA2B6481BD0A219002D8DA8 /* CLLockView.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		3FD0ADE31BAA7EFB0096947D /* QRCodeReaderViewController */ = {
@@ -699,51 +546,6 @@
 				3FF2B5671BEDCB07001766AB /* StaticIPViewController.m */,
 			);
 			name = NetSetting;
-			sourceTree = "<group>";
-		};
-		3FF472451BC7EE8900373821 /* UMSocial_Sdk_4.2.5 */ = {
-			isa = PBXGroup;
-			children = (
-				3FF472461BC7EE8900373821 /* UMSocialLocalizable.strings */,
-				3FF472481BC7EE8900373821 /* Header */,
-				3FF472541BC7EE8900373821 /* libUMSocial_Sdk_4.2.5.a */,
-				3FF472551BC7EE8900373821 /* SocialSDKXib */,
-				3FF4725E1BC7EE8900373821 /* UMSocialSDKResourcesNew.bundle */,
-			);
-			path = UMSocial_Sdk_4.2.5;
-			sourceTree = "<group>";
-		};
-		3FF472481BC7EE8900373821 /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				3FF472491BC7EE8900373821 /* UMSocial.h */,
-				3FF4724A1BC7EE8900373821 /* UMSocialAccountManager.h */,
-				3FF4724B1BC7EE8900373821 /* UMSocialBar.h */,
-				3FF4724C1BC7EE8900373821 /* UMSocialConfig.h */,
-				3FF4724D1BC7EE8900373821 /* UMSocialControllerService.h */,
-				3FF4724E1BC7EE8900373821 /* UMSocialControllerServiceComment.h */,
-				3FF4724F1BC7EE8900373821 /* UMSocialData.h */,
-				3FF472501BC7EE8900373821 /* UMSocialDataService.h */,
-				3FF472511BC7EE8900373821 /* UMSocialSnsData.h */,
-				3FF472521BC7EE8900373821 /* UMSocialSnsPlatformManager.h */,
-				3FF472531BC7EE8900373821 /* UMSocialSnsService.h */,
-			);
-			path = Header;
-			sourceTree = "<group>";
-		};
-		3FF472551BC7EE8900373821 /* SocialSDKXib */ = {
-			isa = PBXGroup;
-			children = (
-				3FF472561BC7EE8900373821 /* UMSCommentDetailController.xib */,
-				3FF472571BC7EE8900373821 /* UMSCommentInputController.xib */,
-				3FF472581BC7EE8900373821 /* UMSCommentInputControlleriPad.xib */,
-				3FF472591BC7EE8900373821 /* UMShareEditViewController.xib */,
-				3FF4725A1BC7EE8900373821 /* UMShareEditViewControlleriPad.xib */,
-				3FF4725B1BC7EE8900373821 /* UMSLoginViewController.xib */,
-				3FF4725C1BC7EE8900373821 /* UMSnsAccountViewController.xib */,
-				3FF4725D1BC7EE8900373821 /* UMSShareListController.xib */,
-			);
-			path = SocialSDKXib;
 			sourceTree = "<group>";
 		};
 		3FF71FA11BC9005D00CA67C4 /* 设置 */ = {
@@ -968,19 +770,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF472661BC7EE8900373821 /* UMShareEditViewControlleriPad.xib in Resources */,
-				3FF472681BC7EE8900373821 /* UMSnsAccountViewController.xib in Resources */,
-				3FF472631BC7EE8900373821 /* UMSCommentInputController.xib in Resources */,
-				3FF472621BC7EE8900373821 /* UMSCommentDetailController.xib in Resources */,
 				3F17ED5F1BA072B500327B5C /* Images.xcassets in Resources */,
-				3FF4726A1BC7EE8900373821 /* UMSocialSDKResourcesNew.bundle in Resources */,
-				3FF472641BC7EE8900373821 /* UMSCommentInputControlleriPad.xib in Resources */,
-				3FF472651BC7EE8900373821 /* UMShareEditViewController.xib in Resources */,
-				3FF472691BC7EE8900373821 /* UMSShareListController.xib in Resources */,
-				3FF472601BC7EE8900373821 /* UMSocialLocalizable.strings in Resources */,
 				3F5E42151BC694F8009A00AA /* help.html in Resources */,
-				3FA2B64A1BD0A219002D8DA8 /* CLLockVC.xib in Resources */,
-				3FF472671BC7EE8900373821 /* UMSLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1047,8 +838,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F5F8A0C1BB81AED00505D72 /* Config.m in Sources */,
-				3FA2B6491BD0A219002D8DA8 /* CLLockVC.m in Sources */,
-				3FA2B64D1BD0A219002D8DA8 /* CLLockNavVC.m in Sources */,
 				3F25C9FD1BA15AE100C8D09D /* AboutViewController.m in Sources */,
 				3F17ED861BA0774100327B5C /* NetViewController.m in Sources */,
 				3F25C9EE1BA14E6900C8D09D /* TerminalViewController.m in Sources */,
@@ -1057,19 +846,15 @@
 				3FD0ADED1BAA7EFB0096947D /* QRCodeReaderViewController.m in Sources */,
 				3F0C825D1BA2FCE80033E51F /* NetSettingViewController.m in Sources */,
 				3F25C9FA1BA15AC800C8D09D /* SupportDevViewController.m in Sources */,
-				3FA2B6511BD0A219002D8DA8 /* CLLockMainView.m in Sources */,
 				3F5F8A111BB91FA600505D72 /* downloadTest.m in Sources */,
 				3FFEFC3E1BCA42E9006D499B /* DropMuneView.m in Sources */,
 				3F25CA001BA15B3600C8D09D /* HelpViewController.m in Sources */,
-				3FA2B64C1BD0A219002D8DA8 /* CoreLockConst.m in Sources */,
 				3F25CA031BA15BC700C8D09D /* UpdateViewController.m in Sources */,
 				3F25CA061BA15DE500C8D09D /* FeedBackViewController.m in Sources */,
 				3FF2B5651BEDCAD6001766AB /* ADSLViewController.m in Sources */,
-				3FA2B64E1BD0A219002D8DA8 /* CLLockInfoView.m in Sources */,
 				3F240B8A1C49026A00828B90 /* JHCustomMenu.m in Sources */,
 				3FD838131BA5D05400BEB44C /* WMGaugeView.m in Sources */,
 				3FD0ADF11BAB18590096947D /* Reachability.m in Sources */,
-				3FA2B64B1BD0A219002D8DA8 /* CALayer+Anim.m in Sources */,
 				3FD52F621BA7FD9F0019544F /* CoreArchive.m in Sources */,
 				3F7FA2F21BA727AC002AA728 /* RouterInfoViewController.m in Sources */,
 				3FD0ADEC1BAA7EFB0096947D /* QRCodeReaderView.m in Sources */,
@@ -1085,14 +870,12 @@
 				3FF135901BA1C3580038B8FA /* NewPwdViewController.m in Sources */,
 				3F25C9E21BA1451000C8D09D /* WifiTestViewController.m in Sources */,
 				3F6912C31BE615D0004EBD5D /* CommonFunc.m in Sources */,
-				3FA2B6521BD0A219002D8DA8 /* CLLockView.m in Sources */,
 				3F25C9F71BA15AA700C8D09D /* SetViewController.m in Sources */,
 				3F5F8A091BB81A1100505D72 /* Utils.m in Sources */,
 				3FF71FA01BC8ED9A00CA67C4 /* testResultModel.m in Sources */,
 				3FF2B5621BEDCACB001766AB /* AutoGetViewController.m in Sources */,
 				3F0C82561BA2CB6E0033E51F /* NetTestResViewController.m in Sources */,
 				3FF1358D1BA1BE880038B8FA /* SecurityProViewController.m in Sources */,
-				3FA2B6501BD0A219002D8DA8 /* CLLockLabel.m in Sources */,
 				3FF3B1E41BA12A9700F6AA28 /* LoginViewController.m in Sources */,
 				3F17ED541BA072B500327B5C /* main.m in Sources */,
 				3F25C9F41BA14EDA00C8D09D /* NetSpeedViewController.m in Sources */,
@@ -1101,10 +884,8 @@
 				3F25C9F11BA14E9500C8D09D /* RouterViewController.m in Sources */,
 				3FFEFC871BCAB896006D499B /* WebViewController.m in Sources */,
 				3F17ED891BA0775100327B5C /* MoreViewController.m in Sources */,
-				3F0C825A1BA2CE410033E51F /* RatingView.m in Sources */,
 				3FF1358A1BA1B9F50038B8FA /* NetBetterViewController.m in Sources */,
 				3FD52F611BA7FD9F0019544F /* NSString+File.m in Sources */,
-				3FA2B64F1BD0A219002D8DA8 /* CLLockItemView.m in Sources */,
 				3FF3B1E71BA1306200F6AA28 /* GuestViewController.m in Sources */,
 				3FD5831A1BC18FA60061E81F /* KxMenu.m in Sources */,
 			);
@@ -1127,18 +908,6 @@
 			targetProxy = 3F17ED681BA072B500327B5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3FF472461BC7EE8900373821 /* UMSocialLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FF472471BC7EE8900373821 /* en */,
-				3FF4725F1BC7EE8900373821 /* zh-Hans */,
-			);
-			name = UMSocialLocalizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3F17ED6F1BA072B500327B5C /* Debug */ = {

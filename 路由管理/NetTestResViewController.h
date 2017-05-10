@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RatingView.h"
 #import "testResultModel.h"
 
 

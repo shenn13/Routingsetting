@@ -17,8 +17,6 @@
 #import "Utils.h"
 #import "Config.h"
 
-#import "CLLockVC.h"
-
 @interface SecurityProViewController2 ()<UITableViewDataSource,UITableViewDelegate,UITextFieldDelegate,UITextViewDelegate,UITextFieldDelegate>
 {
     NSMutableArray *_dataSourceArray;
